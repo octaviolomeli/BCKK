@@ -1,0 +1,93 @@
+Date,Day,Time,Type,Name,Hidden
+9/10/2021,Fri,Lunch,Work Session,Brainstorming,FALSE
+9/13/2021,Mon,Lunch,Work Session,What is CS?,FALSE
+9/15/2021,Wed,After School,Workshop,Introduction to CS,FALSE
+9/17/2021,Fri,Lunch,Work Session,Workshop reflection,FALSE
+9/20/2021,Mon,Lunch,Mini Lecture,Python Basics,FALSE
+9/20/2021,Mon,After School,Coding Practice,Chat Bot in Python,FALSE
+9/24/2021,Fri,Lunch,Mini Lecture,Python Basics (Rerun),FALSE
+9/24/2021,Fri,After School,Coding Practice,Chat Bot in Python,FALSE
+9/27/2021,Mon,Lunch,Deep Dive,Random,FALSE
+9/27/2021,Mon,After School,Coding Practice,Sandbox,FALSE
+10/1/2021,Fri,Lunch,Mini Lecture,Functions,FALSE
+10/1/2021,Fri,After School,Coding Practice,Sandbox,FALSE
+10/4/2021,Mon,Lunch,Coding Practice,Practice Websites,FALSE
+10/6/2021,Wed,After School,Design Session,Intro to Figma,FALSE
+10/8/2021,Fri,Lunch,Mini Lecture,Loops,FALSE
+10/9/2021,Sat,Other,Hackathon,TeenTechSF,FALSE
+10/11/2021,Mon,Other,Break,No School,FALSE
+10/13/2021,Wed,After School,Design Session,Designing a website,FALSE
+10/15/2021,Fri,Lunch,Mini Lesson,Data Structures,FALSE
+10/18/2021,Mon,Lunch,Talk,Coding Practice,FALSE
+10/20/2021,Wed,After School,Workshop,Intro to Unity,FALSE
+10/22/2021,Fri,Lunch,Mini Lesson,JavaScript,FALSE
+10/25/2021,Mon,Lunch,Deep Dive,Cryptocurrency & Blockchain,FALSE
+10/29/2021,Fri,Lunch,Mini Lesson,C#,FALSE
+11/1/2021,Mon,Lunch,Talk,Unity: Movement,FALSE
+11/1/2021,Mon,After School,Practice,Challenge,FALSE
+11/3/2021,Wed,After School,Practice,Kahoot & Review,FALSE
+11/5/2021,Fri,Lunch,Talk,Unity: Collisions,FALSE
+11/8/2021,Mon,Lunch,Mini Lesson,Unity: Prefabs,FALSE
+11/10/2021,Wed,After School,Practice,Projectiles in Unity,FALSE
+11/29/2021,Mon,Lunch,Deep Dive,Github,FALSE
+12/1/2021,Wed,After School,Practice,Unity: Projectiles,FALSE
+12/3/2021,Fri,Lunch,Talk,Search algorithms,FALSE
+12/6/2021,Mon,Lunch,Mini Lesson,Physics Simulation,FALSE
+12/6/2021,Mon,After School,Practice,Stylized Time,FALSE
+12/7/2021,Tue,Lunch,Talk,Discord Bot,FALSE
+12/9/2021,Thu,Lunch,Talk,Pathfinding Algorithms,FALSE
+12/10/2021,Fri,Lunch,Talk,Conway's Game of Life,FALSE
+1/3/2022,Mon,Lunch,Talk,Vectors,FALSE
+1/3/2022,Mon,After School,Practice,Raycasting,FALSE
+1/5/2022,Wed,After School,Practice,Search Algorithms,FALSE
+1/7/2022,Fri,Lunch,Mini Lesson,Games with p5.js,FALSE
+1/10/2022,Mon,Lunch,Mini Lesson,Creative p5,FALSE
+1/12/2022,Wed,After School,Break,Out,FALSE
+1/14/2022,Fri,Lunch,Break,No School,FALSE
+1/17/2022,Mon,Lunch,Break,No School,FALSE
+1/19/2022,Wed,After School,Practice,Fireworks!,FALSE
+1/21/2022,Fri,Lunch,Talk,HTML Brief,FALSE
+1/24/2022,Mon,Lunch,Talk,CSS Brief,FALSE
+1/24/2022,Mon,After School,Practice,Styling Practice,FALSE
+1/28/2022,Fri,Lunch,Mini Lesson,Sorting Algorithms,FALSE
+1/31/2022,Mon,Other,Break,Break,FALSE
+2/2/2022,Wed,Async,Practice,Implementing Sort,FALSE
+2/4/2022,Fri,Lunch,Mini Lesson,Flex & Grid,FALSE
+2/4/2022,Fri,After School,Practice,Navigation Bar,FALSE
+2/7/2022,Mon,Lunch,Talk,Bootstrap,FALSE
+2/9/2022,Wed,Async,Practice,p5 - Ray Marching,FALSE
+2/11/2022,Fri,Lunch,Mini Lesson,CSS Transitions,FALSE
+2/11/2022,Fri,After School,Practice,Neon Button,FALSE
+2/14/2022,Mon,Lunch,Deep Dive,The Cloud,FALSE
+2/14/2022,Mon,After School,Practice,Using Bootstrap,FALSE
+2/16/2022,Wed,Async,Practice,Website Clone,FALSE
+2/21/2022,Mon,Lunch,Break,No School,FALSE
+2/23/2022,Wed,Async,Practice,Password Generator,FALSE
+2/25/2022,Fri,Lunch,Mini Lesson,Web Interactivity,FALSE
+2/25/2022,Fri,After School,Practice,HTML Forms,FALSE
+2/28/2022,Mon,Lunch,Talk,SQL Brief,FALSE
+2/28/2022,Mon,After School,Practice,SQL Practice,FALSE
+3/2/2022,Wed,Async,Practice,Keyboard Sounds,FALSE
+3/7/2022,Mon,Lunch,Talk,Programming Tips,FALSE
+3/11/2022,Fri,After School,Practice,Classes Practice,FALSE
+3/14/2022,Mon,Lunch,Talk,Coding Tips II,FALSE
+3/16/2022,Wed,Lunch,Async,Practical Classes,FALSE
+3/21/2022,Mon,Lunch,Talk,Learning C,FALSE
+3/21/2022,Mon,After School,Practice,C Practice,FALSE
+3/23/2022,Wed,Async,Practice,Audio Visualizer,FALSE
+3/28/2022,Mon,Lunch,Mini Lesson,String Methods,FALSE
+3/28/2022,Mon,After School,Practice,Word Chain,FALSE
+4/1/2022,Fri,Lunch,Break,No School,FALSE
+4/11/2022,Mon,Lunch,Talk,tkinter,FALSE
+4/11/2022,Mon,After School,Practice,Tic Tac Toe,FALSE
+4/13/2022,Wed,Async,Practice,Python Classes,FALSE
+4/18/2022,Mon,After School,Event,Hackathon Opening,FALSE
+4/18/2022,Mon,After School,Workshop,Python,FALSE
+4/18/2022,Tue,After School,Workshop,p5.js,FALSE
+4/21/2022,Thu,After School,Workshop,Github,FALSE
+4/22/2022,Fri,After School,Event,Hackathon Closing,FALSE
+4/25/2022,Mon,Lunch,Deep Dive,AI & ML,FALSE
+4/27/2022,Wed,Async,Practice,Login with tkinter,FALSE
+5/4/2022,Wed,Async,Practice,2D Platformer with p5,FALSE
+5/11/2022,Wed,Async,Practice,Contact Book,FALSE
+5/18/2022,Wed,After School,Social,Final Meeting,FALSE
