@@ -42,7 +42,7 @@ class CS(commands.Cog):
       message_id = payload.message_id
       if message_id == 874797444939014154:
           guild_id = payload.guild_id
-          guild = discord.utils.find(lambda g : g.id == guild_id, commands.guilds)
+          guild = discord.utils.find(lambda g : g.id == guild_id, self.client.guilds)
   
           print(payload.emoji.name)
           if payload.emoji.name == '🧑‍🔬':
@@ -82,7 +82,7 @@ class CS(commands.Cog):
       message_id = payload.message_id
       if message_id == 874797444939014154:
           guild_id = payload.guild_id
-          guild = discord.utils.find(lambda g : g.id == guild_id, client.guilds)
+          guild = discord.utils.find(lambda g : g.id == guild_id, self.client.guilds)
   
           if payload.emoji.name == '🧑‍🔬':
               role = discord.utils.get(guild.roles, name='scientist')
@@ -102,7 +102,7 @@ class CS(commands.Cog):
               role = None
   
           if role is not None:
-              member = await (await commands.fetch_guild(payload.guild_id)).fetch_member(payload.user_id)
+              member = await (await self.client.fetch_guild(payload.guild_id)).fetch_member(payload.user_id)
               if role is not None:
                 await member.remove_roles(role)
                 print("Role removed")
