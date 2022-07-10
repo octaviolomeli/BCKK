@@ -84,7 +84,7 @@ class Covid(commands.Cog):
             for index in range(len(states)):
                 csv_writer.writerow([states[index], cases[index][0], cases[index][1]])
                 
-        df = pd.read_csv('data/covid_stats.csv.csv')
+        df = pd.read_csv('data/covid_stats.csv')
 
         for index in range(len(df['Cases'])):
             df['Cases'][index] = df['Cases'][index].replace(',', '', 5)
@@ -93,10 +93,17 @@ class Covid(commands.Cog):
         df.sort_values(by='Cases', ascending=False, inplace=True)
         try:
             filt = df['Cases'] > num
-            await ctx.send(
-                "Displaying states with more than {} COVID-19 cases.\n{}".
-                format(num, df[filt]['Cases']))
+            list_version = df[filt]['State'].tolist()
+            states = ""
+            for state in list_version:
+              states += state + ", "
+
+            if len(list_version) == 0:
+              states = "No state qualifies. "
+          
+            await ctx.send(states[:-2])
         except:
+          
             await ctx.send('Not a valid input.')
 
     # sends the states with more than an inputted number of deaths from COVID-19
@@ -132,13 +139,18 @@ class Covid(commands.Cog):
         for index in range(len(df['Deaths'])):
             df['Deaths'][index] = df['Deaths'][index].replace(',', '', 5)
             df['Deaths'][index] = float(df['Deaths'][index])
-        df.set_index(['State'], inplace=True)
         df.sort_values(by='Deaths', ascending=False, inplace=True)
         try:
             filt = df['Deaths'] > num
-            await ctx.send(
-                "Displaying states with more than {} deaths resulting from COVID-19.\n{}"
-                .format(num, df[filt]['Deaths']))
+            list_version = df[filt]['State'].tolist()
+            states = ""
+            for state in list_version:
+              states += state + ", "
+
+            if len(list_version) == 0:
+              states = "No state qualifies."
+              
+            await ctx.send(states[:-2])
         except:
             await ctx.send('Not a valid input.')
 
